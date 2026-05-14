@@ -47,7 +47,7 @@ export async function POST(req: Request) {
 
     // Update rate limit map
     rateLimitMap.set(ip, now);
-    
+
     // Clean up old entries occasionally to prevent memory leaks in long-running processes
     if (rateLimitMap.size > 1000) {
       rateLimitMap.clear();
