@@ -21,8 +21,8 @@ const journey = [
 ];
 
 const roles = [
-  "Field Coordinator", "Teaching Support", "Health Camp Assistant",
-  "Digital Literacy Trainer", "Fundraising Lead", "Social Media Champion",
+  "Teaching Assistant", "Library Coordinator", "After-School Mentor",
+  "Literacy Coach", "Digital Skills Tutor", "Fundraising Lead",
 ];
 
 export default function VolunteerSection() {
@@ -143,10 +143,10 @@ export default function VolunteerSection() {
                   <label className="text-xs text-white/50 mb-1.5 block tracking-wide">Area of Interest</label>
                   <select className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white focus:outline-none focus:border-[#D4AF37]/50 text-sm transition-colors appearance-none">
                     <option value="" className="bg-[#1a1a1a]">Select a program</option>
-                    <option value="education" className="bg-[#1a1a1a]">Education</option>
-                    <option value="health" className="bg-[#1a1a1a]">Healthcare</option>
-                    <option value="women" className="bg-[#1a1a1a]">Women Empowerment</option>
-                    <option value="rural" className="bg-[#1a1a1a]">Rural Development</option>
+                    <option value="primary" className="bg-[#1a1a1a]">Primary Education</option>
+                    <option value="literacy" className="bg-[#1a1a1a]">Literacy & Reading</option>
+                    <option value="digital" className="bg-[#1a1a1a]">Digital Literacy</option>
+                    <option value="tutoring" className="bg-[#1a1a1a]">Subject Tutoring</option>
                   </select>
                 </div>
                 <div>

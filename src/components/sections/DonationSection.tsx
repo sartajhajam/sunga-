@@ -10,10 +10,10 @@ import { GoldButton } from "@/components/ui/GoldButton";
 const amounts = [10, 25, 50, 100];
 
 const impactMap: Record<number, string> = {
-  10: "Provides school supplies for 2 children for a month",
-  25: "Funds a health camp consultation for 5 families",
-  50: "Supports a woman's vocational training for 1 week",
-  100: "Feeds 10 families with nutritious rations for a month",
+  10: "Provides essential school supplies for 2 students for a month",
+  25: "Covers monthly tuition fees for a child in our primary program",
+  50: "Provides early childhood education and learning kits for 5 toddlers",
+  100: "Funds a full year of primary education and uniforms for a student",
 };
 
 const trustIndicators = [

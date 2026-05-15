@@ -19,16 +19,18 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: "Sunga Organisation — Changing Lives Through Compassion & Action",
   description:
-    "Sunga Organisation is a registered NGO empowering communities across Africa through education, healthcare, women's empowerment, and sustainable development. Join us in creating lasting change.",
+    "Sunga Organisation is a registered NGO dedicated strictly to empowering children and young students across Africa through quality education, learning resources, and scholarship support. Join us in building a brighter future.",
   keywords: [
     "NGO Africa",
     "Sunga Organisation",
     "donate Africa",
     "volunteer NGO",
     "education charity",
-    "women empowerment",
-    "community development",
-    "humanitarian",
+    "primary education Africa",
+    "scholarship NGO",
+    "student support",
+    "learning resources",
+    "educational equity",
   ],
   authors: [{ name: "Sunga Organisation" }],
   creator: "Sunga Organisation",
@@ -39,7 +41,7 @@ export const metadata: Metadata = {
     siteName: "Sunga Organisation",
     title: "Sunga Organisation — Changing Lives Through Compassion & Action",
     description:
-      "Empowering 50,000+ lives across Africa through education, healthcare, and opportunity. Join our mission.",
+      "Empowering 50,000+ young students across Africa through quality education and learning resources. Join our mission.",
   },
   twitter: {
     card: "summary_large_image",

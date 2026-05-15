@@ -2,17 +2,17 @@
 
 import { useEffect, useRef, useState } from "react";
 import { motion, useInView } from "framer-motion";
-import { Users, BookOpen, Heart, Globe, Home, Baby } from "lucide-react";
+import { Users, BookOpen, GraduationCap, Globe, Home, Baby } from "lucide-react";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { FadeUp, StaggerContainer, StaggerItem } from "@/components/animations/MotionWrapper";
 
 const stats = [
-  { icon: Users, value: 50000, suffix: "+", label: "Lives Transformed", color: "#D4AF37", desc: "Individuals directly supported" },
+  { icon: Users, value: 50000, suffix: "+", label: "Lives Transformed", color: "#D4AF37", desc: "Students directly supported" },
   { icon: BookOpen, value: 8500, suffix: "+", label: "Children in School", color: "#E8C84A", desc: "Through scholarship programs" },
-  { icon: Heart, value: 3200, suffix: "+", label: "Women Empowered", color: "#F0D060", desc: "Through livelihood programs" },
-  { icon: Globe, value: 15, suffix: "+", label: "Villages Reached", color: "#D4AF37", desc: "Across 4 African states" },
-  { icon: Home, value: 12000, suffix: "+", label: "Families Supported", color: "#E8C84A", desc: "With food & healthcare" },
-  { icon: Baby, value: 98, suffix: "%", label: "Child Health Rate", color: "#F0D060", desc: "In our program villages" },
+  { icon: GraduationCap, value: 3200, suffix: "+", label: "Students Graduated", color: "#F0D060", desc: "From primary education" },
+  { icon: Globe, value: 15, suffix: "+", label: "Learning Centers", color: "#D4AF37", desc: "Across 4 African states" },
+  { icon: Home, value: 12000, suffix: "+", label: "Education Kits", color: "#E8C84A", desc: "Distributed to remote villages" },
+  { icon: Baby, value: 98, suffix: "%", label: "Retention Rate", color: "#F0D060", desc: "In our partner schools" },
 ];
 
 function AnimatedCounter({ target, suffix, duration = 2.2 }: { target: number; suffix: string; duration?: number }) {

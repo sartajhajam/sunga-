@@ -25,7 +25,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Visit Us",
-    lines: ["Congo Kinshasa"],
+    lines: ["Congo Kinshasa", "Michigan, USA"],
   },
   {
     icon: Mail,
@@ -150,7 +150,7 @@ export default function ContactSection() {
                     <MapPin className="w-5 h-5 text-[#111]" fill="currentColor" />
                   </div>
                   <span className="text-xs font-semibold text-[#111] bg-white/80 backdrop-blur-sm px-3 py-1 rounded-full border border-[#D4AF37]/20">
-                    Congo Kinshasa
+                    Congo & USA
                   </span>
                 </div>
               </div>
