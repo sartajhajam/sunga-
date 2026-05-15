@@ -18,7 +18,7 @@ const impactMap: Record<number, string> = {
 
 const trustIndicators = [
   { icon: Shield, text: "100% Secure & Encrypted" },
-  { icon: CheckCircle, text: "Registered NGO in Congo" },
+  { icon: CheckCircle, text: "Registered NGO in Congo & USA" },
   { icon: TrendingUp, text: "Tax Deductible Donations" },
   { icon: Lock, text: "Transparent Reporting" },
 ];
@@ -33,7 +33,7 @@ export default function DonationSection() {
   const [selected, setSelected] = useState(50);
   const [custom, setCustom] = useState("");
   const [isMonthly, setIsMonthly] = useState(false);
-  const [progress] = useState(67);
+  const [progress] = useState(45);
 
   const displayAmount = custom ? parseInt(custom) || 0 : selected;
 
@@ -128,7 +128,7 @@ export default function DonationSection() {
               {/* Campaign progress */}
               <div className="mb-8">
                 <div className="flex justify-between items-center mb-2">
-                  <span className="text-xs font-semibold text-[#111]">Annual Campaign 2025</span>
+                  <span className="text-xs font-semibold text-[#111]">45,000 $ Raised . Annual Campaign 2025 to 2026</span>
                   <span className="text-xs text-[#D4AF37] font-bold">{progress}% funded</span>
                 </div>
                 <div className="h-2 bg-[#D4AF37]/10 rounded-full overflow-hidden">
@@ -141,7 +141,7 @@ export default function DonationSection() {
                   />
                 </div>
                 <div className="flex justify-between items-center mt-2">
-                  <span className="text-xs text-[#999]">$67,000 raised</span>
+                  <span className="text-xs text-[#999]">$45,000 raised</span>
                   <span className="text-xs text-[#999]">Goal: $100,000</span>
                 </div>
               </div>

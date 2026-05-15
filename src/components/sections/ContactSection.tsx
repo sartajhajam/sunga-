@@ -25,7 +25,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Visit Us",
-    lines: ["123 Hope Street, Community Block,", "New Delhi, Africa 110001"],
+    lines: ["Congo Kinshasa"],
   },
   {
     icon: Mail,
@@ -35,7 +35,7 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Call Us",
-    lines: ["+91 98765 43210", "Mon–Sat, 9 AM – 6 PM IST"],
+    lines: ["+1 (616) 274-8591", "Mon–Sat, 9 AM – 6 PM IST"],
   },
 ];
 
@@ -150,7 +150,7 @@ export default function ContactSection() {
                     <MapPin className="w-5 h-5 text-[#111]" fill="currentColor" />
                   </div>
                   <span className="text-xs font-semibold text-[#111] bg-white/80 backdrop-blur-sm px-3 py-1 rounded-full border border-[#D4AF37]/20">
-                    New Delhi, Africa
+                    Congo Kinshasa
                   </span>
                 </div>
               </div>

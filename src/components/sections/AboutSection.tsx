@@ -74,9 +74,7 @@ export default function AboutSection() {
               <div className="relative z-10">
                 <p className="text-lg text-[#333333] leading-relaxed italic mb-8"
                   style={{ fontFamily: "'Playfair Display', serif" }}>
-                  When I walked into those villages and saw the eyes of children who had never held a book,
-                  I knew I could not look away. Sunga was born not from a plan, but from a promise —
-                  that every life deserves a chance to flourish.
+                  I still remember the moment I realized how many children were growing up without access to something as simple as a book. Looking into their eyes, I understood that ignoring it was no longer an option. Sunga was born from a promise — that every child deserves the chance to dream, learn, and flourish.
                 </p>
                 <div className="flex items-center gap-4">
                   <div className="w-14 h-14 rounded-full bg-gradient-to-br from-[#D4AF37]/30 to-[#F7E7B4]/30 border-2 border-[#D4AF37]/40 flex items-center justify-center text-xl font-bold text-[#D4AF37]"
