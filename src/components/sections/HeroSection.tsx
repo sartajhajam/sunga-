@@ -6,9 +6,9 @@ import { GoldButton } from "@/components/ui/GoldButton";
 import { useRef, useEffect, useState } from "react";
 
 const stats = [
-  { icon: Users, value: "50K+", label: "Lives Changed" },
+  { icon: Users, value: "5K+", label: "Lives Changed" },
   { icon: BookOpen, value: "200+", label: "Programs" },
-  { icon: Globe, value: "15+", label: "Villages" },
+  { icon: Globe, value: "15+", label: "Cities" },
   { icon: Star, value: "13+", label: "Years Active" },
 ];
 
