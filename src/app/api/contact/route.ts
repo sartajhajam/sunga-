@@ -55,7 +55,7 @@ export async function POST(req: Request) {
 
     // 3. Send Notification Email to Admin
     const adminEmailPromise = resend.emails.send({
-      from: "Sunga Organisation <onboarding@resend.dev>", // Replace with your verified domain e.g., no-reply@sungaorganisation.org
+      from: "Sunga Organisation <onboarding@resend.dev>", // Replace with your verified domain e.g., no-reply@sungaorganisation.com
       to: ["hajamsaj@gmail.com"],
       replyTo: email,
       subject: "New Contact Form Submission - Sunga Organisation",
@@ -80,7 +80,7 @@ export async function POST(req: Request) {
 
     // 4. Send Auto-Reply to User
     const userEmailPromise = resend.emails.send({
-      from: "Sunga Organisation <onboarding@resend.dev>", // Replace with your verified domain e.g., no-reply@sungaorganisation.org
+      from: "Sunga Organisation <onboarding@resend.dev>", // Replace with your verified domain e.g., no-reply@sungaorganisation.com
       to: [email],
       subject: "Thank you for contacting Sunga Organisation",
       html: `

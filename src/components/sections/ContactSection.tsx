@@ -30,7 +30,7 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email Us",
-    lines: ["info@sungaorganisation.org", "donate@sungaorganisation.org"],
+    lines: ["info@sungaorganisation.com", "donate@sungaorganisation.com"],
   },
   {
     icon: Phone,

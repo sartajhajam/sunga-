@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://sungaorganisation.org",
+    url: "https://sungaorganisation.com",
     siteName: "Sunga Organisation",
     title: "Sunga Organisation — Changing Lives Through Compassion & Action",
     description:
