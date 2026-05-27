@@ -48,7 +48,7 @@ const social = [
 
 export default function ContactSection() {
   const [submitted, setSubmitted] = useState(false);
-  
+
   const {
     register,
     handleSubmit,
@@ -81,7 +81,7 @@ export default function ContactSection() {
       setSubmitted(true);
       toast.success("Message sent successfully!");
       reset();
-      
+
       setTimeout(() => setSubmitted(false), 4000);
     } catch (error) {
       toast.error("Failed to send message. Please try again later.");
